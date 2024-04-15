@@ -1,0 +1,111 @@
+header{
+    background-color: rgb(15, 101, 156);
+  
+}
+
+main{
+    background-color:  rgb(15, 101, 156);
+}
+
+footer img{
+
+    width: 2rem;
+    justify-content: baseline;
+    align-items: baseline;
+    vertical-align: middle;
+    
+}
+
+
+header>nav>a{
+   
+    color: #000000;
+    margin: 3rem;
+    
+}
+
+header>nav{
+    text-align: center;
+    padding: 1rem;
+}
+.about img{
+    width: 50%;
+    padding: .5rem;
+    display: block;
+    margin: auto;
+}
+
+nav>a:hover{
+    color: rgb(0, 185, 46);}
+
+.career img{
+    margin: 1rem 4.5%;
+     width: 40%;
+     
+    
+ }
+
+ footer{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+ }
+footer div{
+    width: 50%;
+text-align: center;
+
+}
+
+body{
+    margin: 0;
+}
+
+ .about{
+    padding: .25rem;
+  
+}
+
+.career{
+    padding: .25rem;
+}
+
+@media (min-width:1000px)
+{
+main section img{
+    width: 50%;
+}
+
+
+
+
+        
+
+.about img{
+  width: 25rem;
+  justify-content: center;
+}
+
+h1{
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+.about{
+   
+    font-size: large;
+}
+
+
+header>nav{
+    font-size: x-large;
+   
+      
+
+
+
+}
+
+
+
+}
