@@ -70,20 +70,28 @@ body{
     padding: .25rem;
 }
 
+
+
+
+
 @media (min-width:1000px)
 {
 main section img{
     width: 50%;
 }
 
-
-
-
-        
+main img{
+    max-width: 65%;
+    display: block;
+    margin: 0 auto;
+    height: auto;
+   
+}
 
 .about img{
-  width: 25rem;
+  width: 20rem;
   justify-content: center;
+  
 }
 
 h1{
@@ -99,13 +107,38 @@ h1{
 
 header>nav{
     font-size: x-large;
-   
-      
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0;
+    padding-top: 0;
+}
 
-
+footer {
+    display: flex;       
+    justify-content: space-around; 
+    align-items: flex-end;     
+    padding: 20px;           
+    
+    flex-wrap: nowrap;         
+}
+footer div {
+    display: flex;          
+    align-items: center;    
+    gap: 10px;              
 
 }
 
+.about-content {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    flex-wrap: nowrap; 
+    gap: 10px; 
+}
 
-
+.about-content img {
+    flex: 0 0 auto; 
+    width: calc(33.33% - 10px); 
+    max-width: 100%; 
+}
 }
